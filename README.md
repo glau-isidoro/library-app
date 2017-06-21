@@ -48,3 +48,21 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+
+
+###Firebase
+
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD5qfsHRcZaXIw_R5WDTPUEYyaW8dNjmC8",
+    authDomain: "library-app-1f482.firebaseapp.com",
+    databaseURL: "https://library-app-1f482.firebaseio.com",
+    projectId: "library-app-1f482",
+    storageBucket: "",
+    messagingSenderId: "479432060787"
+  };
+  firebase.initializeApp(config);
+</script>
