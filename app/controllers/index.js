@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-
-  headerMessage: 'Coming Soon',
+/*
+  headerMessage: 'Coming__Soon',
   responseMessage: '',
   emailAddress: '',
 
@@ -22,6 +22,6 @@ export default Ember.Controller.extend({
       });
 
     }
-  }
+  }*/
 
 });
